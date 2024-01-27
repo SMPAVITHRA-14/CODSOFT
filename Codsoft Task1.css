@@ -1,0 +1,53 @@
+body{
+   background-image: url('./pict/coffee.jpg');
+   background-image: fixed;
+}
+ ul{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:100px;
+    font-size:20px;
+    float: right;
+    font-style:inherit;
+  }
+  a:visited{
+    color:aqua;
+  }
+  a:hover{ 
+    color:red;
+  }
+  a:active{
+    color:rgb(255, 0, 247);
+  }
+  li{
+    background-image:url(./pict/flower.jpg);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:inline;
+  }
+  li a{
+    text-decoration: none;
+  }
+  .c1{
+    height: auto;
+    color: black;
+    font-size:30px;
+    padding-top: 80px;
+    padding-right: 200px;
+  
+    padding-left: 300px;
+  }
+  .c2{
+    height: auto;
+    color: orange;
+    font-size:30px;
+    padding-right: 200px;
+    padding-bottom:0;
+    padding-left: 270px;
+  }
+  
+
