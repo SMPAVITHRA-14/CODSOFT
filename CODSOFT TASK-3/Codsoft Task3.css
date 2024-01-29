@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 50%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.calculator{
+    background:rgba(0, 0, 0, 0.555);
+    padding: 20px;
+    border-radius: 8px;
+}
+.calculator form input {
+    width: 50px;
+    height: 40px;
+    border-radius: 8px;
+    background:transparent;
+    color: #fff;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    margin: 20p;
+ }
+ form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    color: black;
+    background-color:white;
+ }
+
+ 
+
